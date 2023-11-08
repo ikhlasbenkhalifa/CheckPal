@@ -1,0 +1,18 @@
+Fonction Palindrome (T : tab[1..n] de caractére) : Boolean
+Variables
+i:entier
+
+Debut
+
+Répeter 
+Si (length.T=1) Alors
+Ecrire ("Vrai")
+Sinon
+ Pour i allant de 1 a n faire
+   Si (T[1] = T[n]) alors
+      i <-- i+1
+      n <-- n-1
+   FinSi
+FinSi
+jusqu'a (T='') 
+Fin
